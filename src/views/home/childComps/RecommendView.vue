@@ -1,4 +1,5 @@
 <template>
+<!--轮播图下面的内容-->
     <div class="recommend">
         <div v-for="(item, index) in recommends" :key="index" class="recommend-item">
             <a :href="item.link">

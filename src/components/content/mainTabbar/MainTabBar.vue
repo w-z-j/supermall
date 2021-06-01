@@ -1,4 +1,5 @@
 <template>
+<!--底部导航栏-->
     <tar-bar>
       <tar-bar-item path="/home" activecolor='red'> <!--path和activecolor为动态传参 props接收-->
         <img src="@/assets/img/tabbar/home.svg" alt="" slot="item-icon">
